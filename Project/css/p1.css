@@ -1,0 +1,404 @@
+
+.swiper-slide{
+	position: relative;
+	background: url(../img/p1bg.png) center top no-repeat;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+}
+.jiantou{
+	position: absolute;
+	bottom: 5%;
+	width: 0.6rem;
+	height: 0.2rem;
+	left: 2.9rem;
+}
+.jiantou img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-animation: UD 1s linear infinite;
+	-o-animation: UD 1s linear infinite;
+	animation: UD 1s linear infinite;
+}
+@-webkit-keyframes UD{
+	0%{top:0rem;}
+	100%{top:-0.2rem;}
+}
+.box{
+	width: 5.1rem;
+	height: 5.2rem;
+	position: absolute;
+	/*background-color: #fff;*/
+	left: 0.75rem;
+	top: 1.5rem;
+	z-index: 100;
+}
+.box img{
+	position: absolute;
+	width: 100%;
+	height: 100%
+}
+.box div{
+	position: absolute;
+	width: 100%;
+	height: 100%
+}
+.level1 img:nth-child(1){
+
+}
+.level1 img:nth-child(2){
+	width: 50%
+}
+.level1 img:nth-child(3){
+	height: 57%;
+	bottom: 0;
+}
+.level2 img:nth-child(2){
+	height: 41%;
+	width: 70%;
+	bottom: 0;
+	right: 0;
+}
+.level2 img:nth-child(3){
+	height: 29%;
+	width: 21.5%;
+	bottom: 35%;
+	left: 0;
+}
+.level2 img:nth-child(4){
+	height:86.5%;
+	width: 27.5%;
+	top: 0;
+	left: 37%;
+}
+.level2 img:nth-child(1){
+	height:52.3%;
+	width: 25%;
+	top: 22.4%;
+	left: 24.5%;
+}
+.level2 img:nth-child(5){
+	height:8%;
+	width: 7%;
+	top: 44.4%;
+	left: 29.5%;
+}
+.level2 img:nth-child(6){
+	height:52.5%;
+	width: 12.7%;
+	top: 0;
+	left: 51.7%;
+}
+.level3 img:nth-child(1){
+	height:20%;
+	width: 12%;
+	top: 40.5%;
+	left: 4.7%;
+}
+.level3 img:nth-child(2){
+	height: 28.8%;
+    width: 13.5%;
+    top: 36.8%;
+    left: 37%;
+}
+.level3 img:nth-child(3){
+	height: 60.5%;
+    width: 42.3%;
+    top: 39.5%;
+    left: 25%;
+}
+.level3 img:nth-child(4){
+	height: 52.5%;
+    width: 49%;
+    top: 34.5%;
+    right: 0;
+}
+.level3 img:nth-child(5){
+	height: 13%;
+    width: 70%;
+    bottom: 0%;
+    right: 0;
+}
+.star{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.star img{
+	position: absolute;
+}
+.star img:nth-child(1){
+	width: 3.1rem;
+	height: 1.9rem;
+	right: 0rem;
+	top: 4rem;
+	-webkit-animation: s1 2s linear infinite;
+	-o-animation: s1 2s linear infinite;
+	animation: s1 2s linear infinite;
+}
+@-webkit-keyframes s1{
+	0%{right:-2.6rem;top: 4rem;}
+	50%{right:6.6rem;top: -3rem;}
+	100%{right:6.6rem;top: -3rem;}
+}
+.star img:nth-child(2){
+	width: 1.35rem;
+	height: 0.65rem;
+	right: 6.2rem;
+	top: 3rem;
+	-webkit-animation: s2 2s linear infinite;
+	-o-animation: s2 2s linear infinite;
+	animation: s2 2s linear infinite;
+}
+@-webkit-keyframes s2{
+	0%{right:6.2rem;top: 3rem;}
+	50%{right:-1.4rem;top: 8rem;}
+	100%{right:-1.4rem;top: 8rem;}
+}
+.star img:nth-child(3){
+	width: 2rem;
+	height: 0.85rem;
+	left: 6.3rem;
+	top: 4rem;
+	-webkit-animation: s3 1.5s linear infinite;
+	-o-animation: s3 1.5s linear infinite;
+	animation: s3 1.5s linear infinite;
+}
+.star img:nth-child(4){
+	left: -20%;
+	bottom: -21%;
+}
+.star img:nth-child(5){
+	left: -3%;
+	bottom: 23%;
+	width: 80%;
+	height: 20%;
+}
+@-webkit-keyframes s3{
+	0%{left:6.3rem;top: 4rem;}
+	50%{left:-1.1rem;top: 9rem;}
+	100%{left:-1.1rem;top: 9rem;}
+}
+.word{
+	width: 100%;
+	position: absolute;
+	bottom: 15%;
+	text-align: center;
+}
+.word p{
+	font-size: 0.9rem;
+	color: #fff;
+}
+.music{
+	position: fixed;
+	width: 0.8rem;
+	height: 0.8rem;
+	right: 5%;
+	bottom: 5%;
+	z-index: 100;
+}
+.music img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	-webkit-animation: s 3s linear infinite;
+	-o-animation: s 3s linear infinite;
+	animation: s 3s linear infinite;
+}
+@-webkit-keyframes s{
+	0%{-webkit-transform:rotate(0deg)}
+	100%{-webkit-transform: rotate(360deg);}
+}
+.page8 .ania{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;top:0;
+}
+.page8 .ania img{
+	position: absolute;
+}
+.page8 .ania img:nth-child(6){
+	width: 36.1%;
+	height: 16.8%;
+	top: 2.7%;
+	left: 30.3%;
+}
+.page8 .ania img:nth-child(1){
+	width: 36.8%;
+	height: 16.8%;
+	top: 1.6%;
+	left: 10.7%;
+}
+.page8 .ania img:nth-child(2){
+	width: 9.6%;
+	height: 7.9%;
+	left: -2%;
+	top: 2%;
+}
+.page8 .ania img:nth-child(3){
+	width: 21.3%;
+	height: 10.7%;
+	top: -3%;
+	left: 88%;
+}
+.page8 .ania img:nth-child(5){
+	width: 11.1%;
+	height: 6%;
+	top: 12.5%;
+	left: 82%;
+}
+.page8 .ania img:nth-child(4){
+	width: 34.5%;
+	height: 19%;
+	top: 0.8%;
+	left: 58%;
+}
+.page8 .h2{
+	position: absolute;
+	text-align: center;
+	color: #fff;
+	font-size: 0.5rem;
+	font-weight: 700;
+	width: 100%;
+	top: 6%;
+}
+.page8 .zhuban, .hezuo{
+	width: 100%;
+	text-align: center;
+	position: absolute;
+	top: 24.6%;
+}
+.zhuban img,.hezuo img{
+	width: 57.6%;
+}
+.page8>.hezuo {
+	top: 40.7%;
+}
+.kr,.iqy,.guigu{
+	position: absolute;
+	top: 64.6%;
+}
+.kr img,.iqy img,.guigu img{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.kr{
+	width: 21.7%;
+	height: 13.6%;
+	left: 10%;
+}
+.iqy{
+	width: 21.7%;
+	height: 13.6%;
+	left: 68.3%;
+}
+.guigu{
+	width: 22%;
+	height: 13.2%;
+	left: 38.1%;
+}
+.page9 div{
+	width: 100%;
+}
+.page9 .top img{
+	width: 100%;
+	margin-top: 1%;
+}
+.page9 .p p{
+	color: #fff;
+	font-size: 0.3rem;
+	text-align: center;
+	line-height: 0.4rem;
+}
+.qiang{
+	position: absolute;
+	height: 10.6%;
+	margin-top: 20%;
+	text-align: center;
+}
+.qiang img{
+	width: 27.6%;
+	height: 100%;
+}
+.qiang p{
+	color: #fff;
+    font-size: 0.3rem;
+    position: absolute;
+    top: 13%;
+    left: 40.2%;
+}
+.foot{
+	position: absolute;
+	bottom: 6%;
+	text-align: center;
+}
+.foot img{
+	width: 57.3%;
+}
+.pay{
+	display: none;
+	position: absolute;
+	text-align: center;
+	height: 100%;
+}
+.pay div{
+	position: absolute;
+}
+.pay div:nth-child(2){
+	top: 6%;
+}
+.pay span,.pay p{
+	font-size: 0.3rem;
+	color: #fff;
+}
+.pay input{
+	background-color: rgba(0,0,0,0);
+	height: 0.5rem;
+	border-radius: 10px;
+	border: 2px solid #4a4a4a;
+	width: 39.7%;
+	margin-left: 0.3rem;
+	outline: none;
+}
+.pay img{
+	width: 27.6%;
+	height: 10.6%;
+	position: absolute;
+	top: 23%;
+	left: 36%;
+}
+.pay p{
+	position: absolute;
+	left: 44%;
+    top: 25%;
+    font-size: 0.4rem;
+}
+.fenxiang{
+	position: absolute;
+	top: 0;
+	height: 10%;
+}
+.fenxiang img{
+	width: 16%;
+	position: absolute;
+	right: 5%;
+	top:20%;
+	-webkit-animation: U 0.4s linear infinite;
+	-o-animation: U 0.4s linear infinite;
+	animation: U 0.4s linear infinite;
+}
+@-webkit-keyframes U{
+	0%{top: 20%}
+	33%{top: 15%}
+	67%{top: 10%}
+	100%{top:5%;}
+}
+s
